@@ -11,13 +11,13 @@ REACT_APP_API_URL=https://restcountries.eu/rest/v2
 How to use?
 
 ```
-    <DataTable
-        columns={TABLE_COLUMNS}
-        data={list}
-        isStickyHeader
-        pagination
-        pageLimit={10}
-    />
+<DataTable
+    columns={TABLE_COLUMNS}
+    data={list}
+    isStickyHeader
+    pagination
+    pageLimit={10}
+/>
 ```
 
 Here `list` is an array consists of all data.
@@ -27,42 +27,50 @@ and
 TABLE_COLUMNS will be configurable column array and it looks like bellow,
 
 ```
-    const TABLE_COLUMNS = [{
-    name: 'Name',
-    key: 'name',
-    sortByKey: 'name', // this gives flexbality over display content
-    }, {
-    name: 'Code',
-    key: 'alpha2Code',
-    sortByKey: 'alpha2Code',
-    }, {
-    name: 'Capital',
-    key: 'capital',
-    sortByKey: 'capital',
-    }, {
-    name: 'Region',
-    key: 'region',
-    sortByKey: 'region',
-    }, {
-    name: 'Area (km²)',
-    key: 'area',
-    sortByKey: 'area',
-    }];
+const TABLE_COLUMNS = [{
+  name: 'Name',
+  key: 'name',
+  sortByKey: 'name', // this gives flexbality over display content
+}, {
+  name: 'Code',
+  key: 'alpha2Code',
+  sortByKey: 'alpha2Code',
+}, {
+  name: 'Capital',
+  key: 'capital',
+  sortByKey: 'capital',
+}, {
+  name: 'Region',
+  key: 'region',
+  sortByKey: 'region',
+}, {
+  name: 'Area (km²)',
+  key: 'area',
+  sortByKey: 'area',
+}];
 ```
 
 ## Available configurations
 
 `sortByKey` - this will provide an option at table header to sort column
+
 `key` - to map data in the cell
+
 `isStickyHeader` - To enable sticky header on page scroll
+
 `pagination` - To enable pagination
+
 `pageLimit` - Number of items per page
 
 #### Defaults:
 `sortByKey` - user defined
+
 `key` - user defined
+
 `isStickyHeader` - false
+
 `pagination` - false
+
 `pageLimit` - 5
 
 
