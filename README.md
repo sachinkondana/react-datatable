@@ -1,3 +1,6 @@
+## Demo link
+https://nifty-wiles-952c5f.netlify.app/
+
 ## Available Scripts
 
 Please make sure to create '.env' file to run demo(if not created already).
