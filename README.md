@@ -1,8 +1,6 @@
 ## Demo link
 https://nifty-wiles-952c5f.netlify.app/
 
-## Available Scripts
-
 Please make sure to create '.env' file to run demo(if not created already).
 
 ### .env
@@ -33,7 +31,7 @@ TABLE_COLUMNS will be configurable column array and it looks like bellow,
 const TABLE_COLUMNS = [{
   name: 'Name',
   key: 'name',
-  sortByKey: 'name', // this gives flexbality over display content
+  sortByKey: 'name', // this gives flexibility over display content
 }, {
   name: 'Code',
   key: 'alpha2Code',
