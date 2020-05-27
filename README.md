@@ -1,5 +1,5 @@
 ## Demo link
-https://nifty-wiles-952c5f.netlify.app/
+https://react-datatables.netlify.app
 
 Please make sure to create '.env' file to run demo(if not created already).
 
